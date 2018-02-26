@@ -82,7 +82,8 @@ DATABASES = {
         'NAME': 'operation',
         'USER': 'manager',
         'PASSWORD': 'manager123',
-        'HOST': '47.95.231.82',
+        # 'HOST': '47.95.231.82',
+        'HOST': '192.168.174.49',
         'PORT': '3306',
     }
 }

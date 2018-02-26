@@ -5,5 +5,11 @@
     https://code.ziqiangxuetang.com/django
 
 > 所装库
+
+
+> 初始化模型
+
+    python manage.py makemigrations
+    python manage.py migrate
   
     
