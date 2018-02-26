@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'VMManagement.apps.VmmanagementConfig',
+    # 'VMManagement.apps.VmmanagementConfig',
+    'VMManagement',
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,12 @@ WSGI_APPLICATION = 'OperationPlatform.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'operation',
+        'USER': 'manager',
+        'PASSWORD': 'manager123',
+        'HOST': '47.95.231.82',
+        'PORT': '3306',
     }
 }
 
