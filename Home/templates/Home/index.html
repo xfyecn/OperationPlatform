@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+    <title>这是标题</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'home/styles/css.css' %}" /> </head>
+    <link rel="stylesheet" type="text/css" href="{% static 'home/styles/home.css' %}" /> </head>
 <body>
-
-    <h1>首页</h1>
-
+    <div class="nav-div">这是导航栏</div>
+    <div class="center-div">
+        <div class="menu-div"></div>
+    </div>
 </body>
 </html>

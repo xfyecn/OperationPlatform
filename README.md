@@ -7,13 +7,15 @@
     # 模型配置
     https://www.jianshu.com/p/c10be59aad7a
 
+    # 前段vue.js
+    http://wiki.jikexueyuan.com/project/vue-js/instal.html
+
 > 所装库
 
     # 后台管理美化
     django-grappelli
     # 时区
     pytz
-
 
 > 初始化模型
 
@@ -24,5 +26,8 @@
 
     # 账号密码  admin/admin123
     python manage.py createsuperuser
+
+
+
   
     
